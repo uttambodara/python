@@ -20,3 +20,8 @@ else:
 print("Fibonacci series:")
 for i in range(n_terms):
 	print(recursive_fibonacci(i))
+FruitFul Function Some of the functions we are using, 
+such as the math functions, yield results; for lack of a 
+better name, I call them fruitful functions.
+Void Function
+• The function which not return any thin
