@@ -1,0 +1,4 @@
+Function recursion : function call itself within a 
+function is known as recursion call or recursion 
+function. E.g. call function to find factorial, find prime 
+number within given range etc
