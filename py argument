@@ -4,3 +4,27 @@ Types of arguments
 • Keyword arguments
 • Default arguments
 • Variable-length arguments
+Required Argument : As far as the required arguments 
+are concerned, these are the arguments which are 
+required to be passed at the time of function calling with 
+the exact match of their positions in the function call and 
+function definition. If either of the arguments is not 
+provided in the function call, or the position of the 
+arguments is changed, then the python interpreter will 
+show the error
+
+examples:-
+#the function simple_interest accepts three arguments and returns the simple inte
+rest accordingly 
+def simple_interest(p,t,r): 
+ return (p*t*r)/100 
+p = float(input("Enter the principle amount? ")) 
+r = float(input("Enter the rate of interest? ")) 
+t = float(input("Enter the time in years? ")) 
+print("Simple Interest: ",simple_interest(p,r,t))
+
+Other example
+#the function calculate returns the sum of two arguments a and b 
+def calculate(a,b): 
+ return a+b 
+calculate(10) # this causes an error as we are missing a required arguments b
